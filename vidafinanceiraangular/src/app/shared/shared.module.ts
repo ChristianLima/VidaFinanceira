@@ -15,6 +15,9 @@ import { CategoryPipe } from './pipes/category.pipe';
     AppMaterialModule,
     CommonModule
   ],
-  exports:[ErrorDialogComponent]
+  exports:[
+    ErrorDialogComponent,
+    CategoryPipe
+  ]
 })
 export class SharedModule { }
